@@ -1,0 +1,10 @@
+Číslo dokladu,Typ dokladu,VS,Odberateľ,Odberateľ IČO,Odberateľ DIČ,Odberateľ IČ DPH,Dátum vystavenia,Dátum splatnosti,Dátum zdaniteľného plnenia,Fakturovaná suma bez DPH,DPH,Spolu,Mena,Faktúrovaná suma bez DPH v domácej mene,DPH v domácej mene,Spolu v domácej mene,Mena,Kurz,Dátum úhrady,Druh úhrady,Suma úhrady,Mena úhrady,Tagy,Vystavil
+201410,Faktúra,201410,BDSK s.r.o.,47 091 461,2023735901,SK2023735901,31.10.2014,20.11.2014,31.10.2014,2400,480,2880,EUR,2400,480,2880,EUR,1,31.10.2014,transfer,2880,EUR,,Michal Juras
+201411,Faktúra,201411,BDSK s.r.o.,47 091 461,2023735901,SK2023735901,30.11.2014,20.12.2014,30.11.2014,2730,546,3276,EUR,2730,546,3276,EUR,1,30.11.2014,transfer,3276,EUR,,Michal Juras
+201412,Faktúra,201412,BDSK s.r.o.,47 091 461,2023735901,SK2023735901,31.12.2014,20.01.2015,31.12.2014,2535,507,3042,EUR,2535,507,3042,EUR,1,31.12.2014,transfer,3042,EUR,,Michal Juras
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,,,,,,
