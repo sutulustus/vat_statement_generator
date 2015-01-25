@@ -29,15 +29,15 @@ $this->title = 'Generator kontrolneho vykazu DPH';
         <div class="row">
             <div class="col-lg-4">
                 <label>Kvartal:</label>
-                <?= Html::textInput('quarter', ceil(date('m')/3)) ?>
+                <?= Html::textInput('quarter', $quarter) ?>
             </div>
             <div class="col-lg-4">
                 <label>Rok:</label>
-                <?= Html::textInput('year', date('Y')) ?>
+                <?= Html::textInput('year', $year) ?>
             </div>
             <div class="col-lg-4">
                 <label>Blocky:</label>
-                <?= Html::textInput('bills') ?>
+                <?= Html::textInput('bills', $bills) ?>
             </div>
         </div>
 
@@ -133,14 +133,41 @@ $this->title = 'Generator kontrolneho vykazu DPH';
                                     ];
                                 },
                         ],
-                        'name', 'client', 'vatBase', 'vat', 'date', 'invoice', 'price'
+                        'name', 'client', 'vatBase', 'vat', 'date', 'baseInvoice', 'invoice', 'price'
                     )
                 ]);
                 ?>
             </div>
         </div>
 
-        <?= Html::submitButton('Submit', ['class' => 'btn btn-success']) ?>
+        <div class="row">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    <h3 class="panel-title">Priznanie k DPH</h3>
+                </div>
+                <ul class="list-group">
+                    <li class="list-group-item">Zaklad DPH:</li>
+                    <li class="list-group-item">
+                        <strong><?= nf($vatBaseSum) ?></strong>
+                    </li>
+                    <li class="list-group-item">Fakturovana DPH:</li>
+                    <li class="list-group-item">
+                        <strong><?= nf($vatSum) ?></strong>
+                    </li>
+                    <li class="list-group-item">Odpocet DPH:</li>
+                    <li class="list-group-item">
+                        <strong><?= nf($vatDebitsSum) ?></strong>
+                    </li>
+                    <li class="list-group-item">Vysledna DPH na zaplatenie:</li>
+                    <li class="list-group-item">
+                        <strong><?= nf($vatSum - $vatDebitsSum) ?></strong>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+        <?= Html::submitButton('Prepocitat', ['name' => 'calculate', 'value' => 1, 'class' => 'btn btn-primary']) ?>
+        <?= Html::submitButton('Vygenerovat XML', ['class' => 'btn btn-success']) ?>
 
         <?php $form->end(); ?>
     </div>

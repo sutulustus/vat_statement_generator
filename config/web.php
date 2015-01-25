@@ -1,12 +1,18 @@
 <?php
 
-function debug($mixed, $exit = true) {
+function debug($mixed, $exit = true)
+{
     header('Content-Type: text/html; charset=utf-8');
     print('<pre>');
     print_r($mixed);
     print('</pre>');
 
     if($exit) exit();
+}
+
+function nf($nr)
+{
+    return number_format($nr, 2, '.', '');
 }
 
 $params = require(__DIR__ . '/params.php');

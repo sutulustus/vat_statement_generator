@@ -7,7 +7,6 @@ use yii\web\Controller;
 
 class SiteController extends Controller
 {
-
     public function actions()
     {
         return [
@@ -24,6 +23,7 @@ class SiteController extends Controller
     public function actionIndex()
     {
         list($incomes, $expenses, $corrections) = $this->getData();
+        list($vatSum, $vatBaseSum, $vatDebitsSum) = $this->getDeclaration($incomes, $expenses, $corrections);
 
         $showMsg = Yii::$app->session['success'];
         unset(Yii::$app->session['success']);
@@ -32,11 +32,18 @@ class SiteController extends Controller
             'incomes' => $incomes,
             'expenses' => $expenses,
             'corrections' => $corrections,
+            'vatSum' => $vatSum,
+            'vatBaseSum' => $vatBaseSum,
+            'vatDebitsSum' => $vatDebitsSum + Yii::$app->session['billsDeduction'],
+            'year' => Yii::$app->session['year'] ?: date('Y'),
+            'quarter' => Yii::$app->session['quarter'] ?: ceil(date('m')/3),
+            'bills' => Yii::$app->session['bills'] ?: '',
             'showMsg' => $showMsg
         ));
     }
 
-    public function actionGenerate() {
+    public function actionGenerate()
+    {
         $selectedIncomes = Yii::$app->request->post('incomes');
         $selectedExpenses = Yii::$app->request->post('expenses');
         $selectedCorrections = Yii::$app->request->post('corrections');
@@ -46,14 +53,24 @@ class SiteController extends Controller
         if(!$selectedCorrections) $selectedCorrections = [];
 
         list($incomes, $expenses, $corrections) = $this->getData();
+        list($vatSum, $vatBaseSum, $vatDebitsSum) = $this->getDeclaration($incomes, $expenses, $corrections);
 
         $incomes = array_intersect_key($incomes, array_flip($selectedIncomes));
         $expenses = array_intersect_key($expenses, array_flip($selectedExpenses));
         $corrections = array_intersect_key($corrections, array_flip($selectedCorrections));
 
         $bills = (float)Yii::$app->request->post('bills');
+        $billsDeduction = ($bills - $bills / 1.2) * 0.8;
 
-        $xml = $this->renderPartial('xml', array(
+        if(Yii::$app->request->post('calculate')) {
+            Yii::$app->session['year'] = Yii::$app->request->post('year');
+            Yii::$app->session['quarter'] = Yii::$app->request->post('quarter');
+            Yii::$app->session['bills'] = Yii::$app->request->post('bills');
+            Yii::$app->session['billsDeduction'] = $billsDeduction;
+            return $this->redirect('/', 302);
+        }
+
+        $xml = $this->renderPartial('control_statement', array(
             'incomes' => $incomes,
             'expenses' => $expenses,
             'corrections' => $corrections,
@@ -62,11 +79,21 @@ class SiteController extends Controller
             'bills' => array(
                 'vat' => $bills - $bills / 1.2,
                 'vatBase' => $bills / 1.2, 2,
-                'deduction' => ($bills - $bills / 1.2) * 0.8
+                'deduction' => $billsDeduction
             )
         ));
 
-        file_put_contents("output/vykaz_".date('Y_m_d').'.xml', $xml);
+        file_put_contents("output/control_statement_".date('Y_m_d').'.xml', $xml);
+
+        $xml = $this->renderPartial('vat_declaration', array(
+            'vat' => $vatSum,
+            'base' => $vatBaseSum,
+            'debits' => $vatDebitsSum + $billsDeduction,
+            'quarter' => ['I', 'II', 'III', 'IV'][Yii::$app->request->post('quarter') - 1],
+            'year' => Yii::$app->request->post('year')
+        ));
+        file_put_contents("output/vat_declaration_".date('Y_m_d').'.xml', $xml);
+
         Yii::$app->session['success'] = true;
 
         return $this->redirect('/', 302);
@@ -85,6 +112,26 @@ class SiteController extends Controller
         uasort($incomes, function($a, $b) { return strtotime($a['date']) - strtotime($b['date']); });
 
         return array($incomes, $expenses, $corrections);
+    }
+
+    private function getDeclaration($incomes, $expenses, $corrections)
+    {
+        $vatSum = $vatBaseSum = $vatDebitsSum = 0;
+
+        foreach($incomes as $income) {
+            $vatSum += $income['vat'];
+            $vatBaseSum += $income['vatBase'];
+        }
+
+        foreach($expenses as $expense) {
+            $vatDebitsSum += $expense['vat'];
+        }
+
+        foreach($corrections as $correction) {
+            $vatDebitsSum += $correction['vat'];
+        }
+
+        return array($vatSum, $vatBaseSum, $vatDebitsSum);
     }
 
     private function getClients()
@@ -154,8 +201,12 @@ class SiteController extends Controller
                 'vat' => $vat,
                 'date' => $date->format('Y-m-d'),
                 'invoice' => $invoice,
-                'price' => (float)$expense[9],
+                'price' => (float)$expense[9]
             );
+
+            if(strpos($expense[1], 'DOBROPIS') !== false) {
+                $expenses[$type][$invoice]['baseInvoice'] = preg_replace('/DOBROPIS|[^A-z0-9]/', '', $expense[1]);
+            }
         }
 
         return $expenses;
