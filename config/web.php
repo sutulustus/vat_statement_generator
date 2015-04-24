@@ -23,7 +23,6 @@ $config = [
     'bootstrap' => ['log'],
     'components' => [
         'request' => [
-            'baseUrl' => '',
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'ihsdfg87345khfdg873w4q5safd',
         ],
@@ -54,7 +53,6 @@ $config = [
             ],
         ],
         'urlManager' => [
-            'baseUrl' => '/',
             'enablePrettyUrl' => true,
             'showScriptName' => false,
             'suffix' => '.html',

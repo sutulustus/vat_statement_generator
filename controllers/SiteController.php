@@ -67,7 +67,7 @@ class SiteController extends Controller
             Yii::$app->session['quarter'] = Yii::$app->request->post('quarter');
             Yii::$app->session['bills'] = Yii::$app->request->post('bills');
             Yii::$app->session['billsDeduction'] = $billsDeduction;
-            return $this->redirect('/', 302);
+            return $this->goHome();
         }
 
         $xml = $this->renderPartial('control_statement', array(
@@ -96,7 +96,7 @@ class SiteController extends Controller
 
         Yii::$app->session['success'] = true;
 
-        return $this->redirect('/', 302);
+        return $this->goHome();
     }
 
     private function getData()
@@ -187,12 +187,13 @@ class SiteController extends Controller
         foreach($data as $expense) {
             $clientName = $expense[3];
             $vat = (float)str_replace(array(' ', '.', ','), array('', '', '.'), $expense[12]);
-            $invoice = $expense[21];
+            $invoice = $expense[22];
             $date = \DateTime::createFromFormat('d.m.Y', $expense[6]);
 
             if(!array_key_exists($clientName, $clients) || !$invoice) continue;
 
             $client = $clients[$clientName];
+
             $type = $vat > 0 ? 'expenses' : 'corrections';
             $expenses[$type][$invoice] = array(
                 'name' => $expense[1],
