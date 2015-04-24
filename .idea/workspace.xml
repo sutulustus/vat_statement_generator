@@ -23,31 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="vat_declaration_2015_01_25.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/output/vat_declaration_2015_01_25.xml">
+      <file leaf-file-name=".gitignore" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="17" selection-start="99" selection-end="99" vertical-scroll-proportion="-1.3847377" vertical-offset="931" max-vertical-offset="1560">
+            <state line="3" column="9" selection-start="54" selection-end="54" vertical-scroll-proportion="0.05821918" vertical-offset="0" max-vertical-offset="876">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="priznanieDPH_2015_01_25_odovzdany.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/input/priznanieDPH_2015_01_25_odovzdany.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="25" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="931" max-vertical-offset="1560">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SiteController.php" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="90" column="55" selection-start="3463" selection-end="3463" vertical-scroll-proportion="-15.625" vertical-offset="975" max-vertical-offset="3525">
-              <folding>
-                <element signature="e#35#43#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -62,27 +42,29 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/web/.htaccess" />
-        <option value="$PROJECT_DIR$/.htaccess" />
         <option value="$PROJECT_DIR$/web/requirements.php" />
-        <option value="$PROJECT_DIR$/web/index.php" />
         <option value="$PROJECT_DIR$/views/layouts/main.php" />
         <option value="$PROJECT_DIR$/web/input/kontrolny_vykaz_DPH_3_kvartal.xml" />
         <option value="$PROJECT_DIR$/views/site/xml.php" />
         <option value="$PROJECT_DIR$/views/site/vat_declaration.php" />
         <option value="$PROJECT_DIR$/views/site/index.php" />
-        <option value="$PROJECT_DIR$/config/web.php" />
         <option value="$PROJECT_DIR$/web/output/control_statement_2015_01_25.xml" />
-        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
         <option value="$PROJECT_DIR$/web/output/vat_declaration_2015_01_25.xml" />
+        <option value="$PROJECT_DIR$/.htaccess" />
+        <option value="$PROJECT_DIR$/web/.htaccess" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/config/web.php" />
+        <option value="$PROJECT_DIR$/controllers/SiteController.php" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="y" value="23" />
-    <option name="width" value="1280" />
-    <option name="height" value="726" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -124,7 +106,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
+              <option name="myItemId" value="vat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -134,7 +116,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
+              <option name="myItemId" value="vat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -148,79 +130,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="output" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="input" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="site" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="layouts" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
+              <option name="myItemId" value="vat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -234,7 +144,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="dph" />
+              <option name="myItemId" value="vat" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -299,27 +209,27 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1280" height="726" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20078126" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2028754" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32876712" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
@@ -337,9 +247,9 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.20078126" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
     </layout-to-restore>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -359,139 +269,81 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/params.php">
+    <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
+        <state line="90" column="55" selection-start="3463" selection-end="3463" vertical-scroll-proportion="0.0" vertical-offset="1530" max-vertical-offset="3995">
           <folding />
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/params.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/db.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/.htaccess">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="16" selection-start="118" selection-end="118" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="330">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="629" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/requirements.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="39" selection-start="478" selection-end="478" vertical-scroll-proportion="0.15957446" vertical-offset="0" max-vertical-offset="1935">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/.htaccess">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="23" selection-start="114" selection-end="114" vertical-scroll-proportion="0.18159807" vertical-offset="0" max-vertical-offset="413">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="45" selection-start="120" selection-end="170" vertical-scroll-proportion="0.15424165" vertical-offset="0" max-vertical-offset="389">
-          <folding />
-        </state>
+        <state line="13" column="39" selection-start="478" selection-end="478" vertical-scroll-proportion="0.15957446" vertical-offset="0" max-vertical-offset="1935" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/User.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-3.0874035" vertical-offset="1246" max-vertical-offset="1635">
-          <folding />
-        </state>
+        <state line="3" column="0" selection-start="29" selection-end="29" vertical-scroll-proportion="-3.0874035" vertical-offset="1246" max-vertical-offset="1635" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/IdentityInterface.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="45" column="42" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-0.15681234" vertical-offset="676" max-vertical-offset="1470">
-          <folding />
-        </state>
+        <state line="45" column="42" selection-start="1153" selection-end="1153" vertical-scroll-proportion="-0.15681234" vertical-offset="676" max-vertical-offset="1470" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/LoginForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="27" selection-start="144" selection-end="144" vertical-scroll-proportion="0.3856041" vertical-offset="0" max-vertical-offset="1275">
-          <folding>
-            <element signature="e#30#38#0" expanded="true" />
-          </folding>
-        </state>
+        <state line="10" column="27" selection-start="144" selection-end="144" vertical-scroll-proportion="0.3856041" vertical-offset="0" max-vertical-offset="1275" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/base/Model.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="6" selection-start="2169" selection-end="2169" vertical-scroll-proportion="-9.061171" vertical-offset="4037" max-vertical-offset="13860">
-          <folding />
-        </state>
+        <state line="54" column="6" selection-start="2169" selection-end="2169" vertical-scroll-proportion="-9.061171" vertical-offset="4037" max-vertical-offset="13860" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/models/ContactForm.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/codeception.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="615" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/VerbFilter.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="6" selection-start="1336" selection-end="1336" vertical-scroll-proportion="-24.375" vertical-offset="0" max-vertical-offset="1620">
-          <folding />
-        </state>
+        <state line="47" column="6" selection-start="1336" selection-end="1336" vertical-scroll-proportion="-24.375" vertical-offset="0" max-vertical-offset="1620" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/filters/AccessControl.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="3" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.34710744" vertical-offset="225" max-vertical-offset="2310">
-          <folding>
-            <element signature="e#6#150#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="1" column="3" selection-start="9" selection-end="9" vertical-scroll-proportion="-0.34710744" vertical-offset="225" max-vertical-offset="2310" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/assets/AppAsset.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="6" selection-start="272" selection-end="272" vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="605">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/input/klienti.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
+        <state line="15" column="6" selection-start="272" selection-end="272" vertical-scroll-proportion="0.27272728" vertical-offset="0" max-vertical-offset="605" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/layouts/main.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="65" selection-start="688" selection-end="720" vertical-scroll-proportion="0.49586776" vertical-offset="120" max-vertical-offset="930">
-          <folding>
-            <element signature="e#6#27#0" expanded="false" />
-          </folding>
-        </state>
+        <state line="28" column="65" selection-start="688" selection-end="720" vertical-scroll-proportion="0.49586776" vertical-offset="120" max-vertical-offset="930" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/input/vystavene_faktury.csv">
@@ -499,16 +351,7 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/input/kontrolny_vykaz_DPH_3_kvartal.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="41" selection-start="1638" selection-end="1638" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="735">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="589" />
       </provider>
     </entry>
     <entry file="jar://$APPLICATION_HOME_DIR$/plugins/php/lib/php.jar!/com/jetbrains/php/lang/psi/stubs/data/standard_5.php">
@@ -518,81 +361,76 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/input/vydavky.csv">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
+    <entry file="file://$PROJECT_DIR$/views/site/index.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="1884" selection-end="1892" vertical-scroll-proportion="0.22920203" vertical-offset="0" max-vertical-offset="589">
+        <state line="162" column="38" selection-start="6553" selection-end="6553" vertical-scroll-proportion="-13.958333" vertical-offset="2095" max-vertical-offset="2700" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="48" selection-start="118" selection-end="122" vertical-scroll-proportion="-1.9615384" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/site/index.php">
+    <entry file="file://$PROJECT_DIR$/views/site/control_statement.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="162" column="38" selection-start="6553" selection-end="6553" vertical-scroll-proportion="-13.958333" vertical-offset="2095" max-vertical-offset="2700">
-          <folding>
-            <element signature="e#37#59#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/web.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="-0.625" vertical-offset="30" max-vertical-offset="1290">
+        <state line="20" column="51" selection-start="677" selection-end="702" vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="629">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/site/vat_declaration.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="35" selection-start="1618" selection-end="1618" vertical-scroll-proportion="1.338843" vertical-offset="0" max-vertical-offset="1560">
-          <folding>
-            <marker date="1422221583000" expanded="true" signature="-1:-1" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/site/control_statement.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="51" selection-start="677" selection-end="702" vertical-scroll-proportion="0.5067568" vertical-offset="0" max-vertical-offset="592">
+        <state line="54" column="35" selection-start="1618" selection-end="1618" vertical-scroll-proportion="1.0491428" vertical-offset="0" max-vertical-offset="1768">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/output/control_statement_2015_01_25.xml">
+    <entry file="file://$PROJECT_DIR$/config/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="20" selection-start="563" selection-end="563" vertical-scroll-proportion="0.4054054" vertical-offset="0" max-vertical-offset="629">
+        <state line="55" column="0" selection-start="1513" selection-end="1513" vertical-scroll-proportion="0.42" vertical-offset="578" max-vertical-offset="1428">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/input/vykaz_2015_01_25_odovzdany.xml">
+    <entry file="file://$PROJECT_DIR$/web/input/klienti.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="14" selection-start="53" selection-end="112" vertical-scroll-proportion="0.023847377" vertical-offset="0" max-vertical-offset="629">
+        <state line="0" column="8" selection-start="8" selection-end="8" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="408">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controllers/SiteController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="90" column="55" selection-start="3463" selection-end="3463" vertical-scroll-proportion="-15.625" vertical-offset="975" max-vertical-offset="3525">
-          <folding>
-            <element signature="e#35#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/input/priznanieDPH_2015_01_25_odovzdany.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="25" selection-start="948" selection-end="948" vertical-scroll-proportion="0.0" vertical-offset="631" max-vertical-offset="1560">
+        <state line="192" column="38" selection-start="6751" selection-end="6751" vertical-scroll-proportion="0.48" vertical-offset="2839" max-vertical-offset="3995">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/output/vat_declaration_2015_01_25.xml">
+    <entry file="file://$PROJECT_DIR$/web/input/vydavky.csv">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="17" selection-start="99" selection-end="99" vertical-scroll-proportion="-1.3847377" vertical-offset="931" max-vertical-offset="1560">
+        <state line="16" column="0" selection-start="2882" selection-end="2882" vertical-scroll-proportion="0.31517962" vertical-offset="0" max-vertical-offset="863">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/yiisoft/yii2/web/Controller.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="26" selection-start="5920" selection-end="5926" vertical-scroll-proportion="0.67314285" vertical-offset="2029" max-vertical-offset="3536">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="9" selection-start="54" selection-end="54" vertical-scroll-proportion="0.05821918" vertical-offset="0" max-vertical-offset="876">
           <folding />
         </state>
       </provider>

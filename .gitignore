@@ -1,6 +1,8 @@
 assets/
 protected/runtime/
 protected/config/
+web/input
+web/output
 
 # Packages #
 ############
